@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+
+body {
+ background: linear-gradient(117deg, #fd84a8, #83e2c4);
+ min-height: 100vh;
+ color: #f7d5ed
+}
+h2 {
+  font-weight: 900;
+}
+img {
+  border-radius: 10px;
+  width: 30vw;
+}

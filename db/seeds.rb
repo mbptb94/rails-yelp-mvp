@@ -9,8 +9,8 @@
 #   end
 Restaurant.destroy_all
 
-Restaurant.create!(name: "restau1", address: "address1", phone_number: "01", category: "chinese")
-Restaurant.create!(name: "restau2", address: "address2", phone_number: "02", category: "italian")
-Restaurant.create!(name: "restau3", address: "address3", phone_number: "03", category: "japanese")
-Restaurant.create!(name: "restau4", address: "address4", phone_number: "04", category: "french")
-Restaurant.create!(name: "restau5", address: "address5", phone_number: "05", category: "belgian")
+Restaurant.create!(name: "Barbie & Drink", address: "rue de la jambe douce 44000 Nantes", phone_number: "01453645", category: "chinese", image: "https://tse3.mm.bing.net/th/id/OIG4.4TN5H6eI36iVX28beP5h?pid=ImgGn")
+Restaurant.create!(name: "Ken's Bear", address: "rue des licornes 35000 Rennes", phone_number: "02354657", category: "italian", image: "https://tse4.mm.bing.net/th/id/OIG2._utu5yvpebH2Oy.FzRMI?pid=ImgGn")
+Restaurant.create!(name: "Barbie paillettes", address: "rue des faux cils 44000 Nantes", phone_number: "03473849", category: "japanese", image: "https://tse3.mm.bing.net/th/id/OIG4.T72TkHBs52b9EKnpxNmq?pid=ImgGn")
+Restaurant.create!(name: "BarbBarie", address: "boulevard des extensions de cils 35000 Rennes", phone_number: "04746394", category: "french", image: "https://tse1.mm.bing.net/th/id/OIG4.RkHeWwS0fP1Gwo1ZORxr?pid=ImgGn")
+Restaurant.create!(name: "Blond'n co.", address: "rue du push-up 35000 Rennes", phone_number: "05748595", category: "belgian", image: "https://tse2.mm.bing.net/th/id/OIG4.nHQFSRTVjJ1A2XIE0Sop?pid=ImgGn")
